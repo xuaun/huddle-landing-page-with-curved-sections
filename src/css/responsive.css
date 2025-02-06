@@ -1,0 +1,52 @@
+@media (max-width: 50rem) {
+  .card {
+    flex-direction: column;
+    max-width: 100vw;
+    border-radius: 0rem;
+  }
+
+  .page__main {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .results {
+    max-width: 100vw;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+  }
+
+  .results__section-header {
+    margin: 2.4rem auto;
+  }
+
+  .results__circle {
+    margin: 0 auto 2.4rem;
+  }
+
+  .results__classification {
+    margin-bottom: 0rem;
+  }
+
+  .results__body {
+    margin: 0 5.8rem 4rem;
+  }
+
+  .summary {
+    width: 100vw;
+  }
+
+  .summary__section-header {
+    margin: 2.4rem auto 2.4rem 3.2rem;
+  }
+
+  .summary__list {
+    padding: 0 3rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .summary__btn {
+    padding: 1.6rem calc(50vw - 6.3rem);
+    margin: 0 0 3rem 3rem;
+  }
+}

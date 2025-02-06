@@ -1,0 +1,101 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  /* BLUE */
+  --blue: hsl(234, 85%, 45%);
+  --blue-light: hsl(241, 100%, 89%);
+  --blue-very-light: hsl(278, 100%, 96%);
+  --blue-0-gradient-1: hsl(252, 100%, 67%);
+  --blue-0-gradient-1: hsl(252, 100%, 63%);
+  --blue-100-gradient-1: hsl(241, 81%, 54%);
+  --blue-gradient-1: linear-gradient(
+    180deg,
+    var(--blue-0-gradient-1) 0%,
+    var(--blue-100-gradient-1) 100%
+  );
+  --blue-0-gradient-2: hsl(256, 71%, 46%);
+  --blue-100-gradient-2: hsla(241, 71%, 46%, 0);
+  --blue-gradient-2: linear-gradient(
+    180deg,
+    var(--blue-0-gradient-2) 0%,
+    var(--blue-100-gradient-2) 100%
+  );
+  /* NAVY */
+  --navy-dark: hsl(223, 30%, 27%);
+  /* RED */
+  --red: hsl(0, 100%, 67%);
+  /* YELLOW */
+  --yellow: hsl(40, 100%, 56%);
+  /* GREEN */
+  --green: hsl(166, 100%, 37%);
+  /* WHITE */
+  --white: hsl(0, 0%, 100%);
+
+  /* TYPOGRAPHY DS */
+  --text-family: "Hanken Grotesk", sans-serif;
+  /* TEXT PRESET 1 - HEADING XL */
+  --text-1-size: clamp(5.6rem, 4.457rem + 1.905vw, 7.2rem);
+  --text-1-weight: 800;
+  --text-1-height: 7.2rem;
+  --text-1-spacing: 0rem;
+  /* TEXT PRESET 2 - HEADING L */
+  --text-2-size: clamp(2.4rem, 1.829rem + 0.952vw, 3.2rem);
+  --text-2-weight: 700;
+  --text-2-height: 7.2rem;
+  --text-2-spacing: 0rem;
+  /* TEXT PRESET 3 - HEADING M*/
+  --text-3-size: clamp(1.8rem, 1.371rem + 0.714vw, 2.4rem);
+  --text-3-weight: 700;
+  --text-3-height: 2.4rem;
+  --text-3-spacing: 0rem;
+  /* TEXT PRESET 4 - BODY */
+  --text-4-size: clamp(1.6rem, 1.457rem + 0.238vw, 1.8rem);
+  --text-4-weight: 500;
+  --text-4-height: 1.8rem;
+  --text-4-spacing: 0rem;
+  /* TEXT PRESET 4 - BODY (BOLD) */
+  --text-4-bold-weight: 700;
+
+  /* OTHER DS */
+  --circle-size: clamp(14rem, 9.714rem + 7.143vw, 20rem);
+  --blue-gradient-1-webkit: -webkit-linear-gradient(
+    180deg,
+    var(--blue-0-gradient-1) 0%,
+    var(--blue-100-gradient-1) 100%
+  );
+  --blue-gradient-1-moz: -moz-linear-gradient(
+    180deg,
+    var(--blue-0-gradient-1) 0%,
+    var(--blue-100-gradient-1) 100%
+  );
+  --blue-gradient-1-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e2be9",endColorstr="#6842ff",GradientType=1);
+  --blue-gradient-2-webkit: -webkit-linear-gradient(
+    180deg,
+    var(--blue-0-gradient-2) 0%,
+    var(--blue-100-gradient-2) 100%
+  );
+  --blue-gradient-2-moz: -moz-linear-gradient(
+    180deg,
+    var(--blue-0-gradient-2) 0%,
+    var(--blue-100-gradient-2) 100%
+  );
+  --blue-gradient-2-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2522c900",endColorstr="#4e22c9",GradientType=1);
+
+  /* PAGE */
+  /* COLORS */
+  --background-page-color: var(--blue-very-light);
+  --background-results-color: var(--blue-gradient-1);
+  --background-circle-color: var(--blue-gradient-2);
+  --background-summary-color: var(--white);
+  --text-results-header: var(--white);
+  --text-results-body: var(--blue-light);
+  --text-summary-header: var(--navy-dark);
+  --text-summary-list-1: var(--red);
+  --text-summary-list-2: var(--yellow);
+  --text-summary-list-3: var(--green);
+  --text-summary-list-4: var(--blue);
+  --text-summary-body: var(--navy-dark);
+  --text-summary-btn: var(--white);
+  --btn-background: var(--navy-dark);
+  --btn-hover: var(--blue-gradient-1);
+}
