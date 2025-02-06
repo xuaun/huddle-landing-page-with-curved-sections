@@ -280,7 +280,7 @@ html {
   display: grid;
   grid-template-columns: 34rem 52rem;
   justify-content: space-between;
-  height: 44rem;
+  height: 57rem;
   position: relative;
 }
 
