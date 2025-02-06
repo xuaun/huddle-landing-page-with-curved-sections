@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component solution
+# Frontend Mentor - Huddle landing page with curved sections solution
 
 ## Languages
 This first section is in English. 
@@ -7,9 +7,9 @@ This first section is in English.
 
 ## Context
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-> Your challenge is building out this results summary component and getting it as close to the design as possible.
+> Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
 ## Table of contents
 
@@ -28,9 +28,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- <s>**Bonus**: Use the local JSON data to dynamically populate the content</s>
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
@@ -48,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/xuaun/results-summary-component)
+- Solution URL: [GitHub Repository](https://github.com/xuaun/huddle-landing-page-with-curved-sections) and [my Frontend Mentor solution page](https://your-live-site-url.com)
 - Live Site URL: [Live Page](https://your-live-site-url.com)
 
 ## My process
@@ -65,15 +64,20 @@ Users should be able to:
 
 In this project I was able to use flexbox, grid, variable, and media query concepts in CSS, as well as using a ready-made Figma design to create this component. I also used `rem` for measurements, `clamp()` to help with responsiveness, and BEM methodology for naming classes.
 
-Something I learned in this project was to create a gradient color for the background.
+This project was quite challenging, mainly to understand the different distances between elements and how to handle them using responsiveness. But I'm happy with the final result.
 
 ```css
-.results {
-    background: linear-gradient(
-    180deg,
-    var(--blue-0-gradient-1) 0%,
-    var(--blue-100-gradient-1) 100%
-  );
+.details__row:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -16.5rem;
+  width: 144rem;
+  max-width: 100%;
+  height: 16.5rem;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  background-size: cover;
+  background-position: center;
 }
 ```
 
@@ -86,13 +90,13 @@ Something I learned in this project was to create a gradient color for the backg
 ____
 <br>
 
-# <p id="portuguese">Frontend Mentor - Solução do projeto de componente de resumo de resultados</p>
+# <p id="portuguese">Frontend Mentor - Solução do projeto de landing page do Huddle com seções curvas</p>
 
 ## Contexto
 
-Esta é uma solução para o [desafio de componente de resumo de resultados no Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
+Esta é uma solução para o [desafio de landing page do Huddle com seções curvas no Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
 
-> Seu desafio é criar esse componente de resumo de resultados e deixá-lo o mais próximo possível do design.
+> Seu desafio é criar esta landing page e fazer com que ela tenha a aparência mais próxima possível do design.
 
 ## Lista de conteúdos
 
@@ -113,7 +117,6 @@ Os usuários devem ser capazes de:
 
 - Visualizar o layout ideal dependendo do tamanho da tela do dispositivo
 - Veja os estados de foco para elementos interativos
-- <s>**Bônus**: Use os dados JSON locais para preencher dinamicamente o conteúdo</s>
 
 ### Prints
 
@@ -131,8 +134,8 @@ Os usuários devem ser capazes de:
 
 ### <p id="links-pt">Links</p>
 
-- Link da solução: [Repositório no GitHub](https://your-solution-url.com)
-- Site com a solução: [Página no ar](https://your-live-site-url.com)
+- Link da solução: [Repositório no GitHub](https://github.com/xuaun/huddle-landing-page-with-curved-sections) e a [página da minha solução no Frontend Mentor](https://your-live-site-url.com)
+- Site com a solução: [Página do projeto no ar](https://your-live-site-url.com)
 
 ## Meu processo
 
@@ -148,15 +151,20 @@ Os usuários devem ser capazes de:
 
 Neste projeto eu pude utilizar conceitos de flexbox e grid, de variáveis e de media query no CSS, além de usar um design pronto do Figma para a elaboração deste componente. Eu também usei `rem` para medidas, `clamp()` para ajudar na responsividade e metodologia BEM para nomear classes.
 
-Algo que aprendi neste projeto foi criar uma cor em degrade para o background.
+Este projeto foi bastante desafiador, principalmente para entender as diferentes distâncias entre os elementos e como lidar com elas usando responsividade. Mas estou feliz com o resultado final.
 
 ```css
-.results {
-    background: linear-gradient(
-    180deg,
-    var(--blue-0-gradient-1) 0%,
-    var(--blue-100-gradient-1) 100%
-  );
+.details__row:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -16.5rem;
+  width: 144rem;
+  max-width: 100%;
+  height: 16.5rem;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  background-size: cover;
+  background-position: center;
 }
 ```
 
@@ -164,4 +172,3 @@ Algo que aprendi neste projeto foi criar uma cor em degrade para o background.
 
 - Website - [Portfólio - João Víctor de Araujo Lima](https://xuaun.github.io/)
 - Frontend Mentor - [@xuaun](https://www.frontendmentor.io/profile/xuaun)
-

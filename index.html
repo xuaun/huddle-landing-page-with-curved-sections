@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/variables.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
@@ -13,21 +20,21 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./src/assets/images/favicon-32x32.png"
+      href="./src/images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Results summary component</title>
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
     <meta
       name="description"
-      content="Results summary component challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
+      content="Huddle landing page with curved sections challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
     />
     <meta
       name="keywords"
@@ -37,47 +44,132 @@
     <meta name="language" content="English" />
     <meta name="generator" content="Visual Studio Code" />
   </head>
-  <body class="page">
-    <main class="page__main">
-      <div class="card">
-        <section class="results">
-          <h3 class="results__section-header">Your Result</h3>
-          <div class="results__circle">
-            <h1 class="results__score">76</h1>
-            <p class="results__total">of 100</p>
-          </div>
-          <h2 class="results__classification">Great</h2>
-          <p class="results__body">
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
-        </section>
 
-        <section class="summary">
-          <h3 class="summary__section-header">Summary</h3>
-          <ul class="summary__list">
-            <li class="summary__item">
-              <p class="summary__item-name">Reaction</p>
-              <p class="summary__item-score"><span>80</span> / 100</p>
-            </li>
-            <li class="summary__item">
-              <p class="summary__item-name">Memory</p>
-              <p class="summary__item-score"><span>92</span> / 100</p>
-            </li>
-            <li class="summary__item">
-              <p class="summary__item-name">Verbal</p>
-              <p class="summary__item-score"><span>61</span> / 100</p>
-            </li>
-            <li class="summary__item">
-              <p class="summary__item-name">Visual</p>
-              <p class="summary__item-score"><span>73</span> / 100</p>
-            </li>
-          </ul>
-          <button class="summary__btn">Continue</button>
-        </section>
-      </div>
+  <body class="page">
+    <header class="header">
+      <img
+        src="./src/images/logo.svg"
+        alt="Huddle logo"
+        title="Huddle"
+        class="header__logo"
+      />
+      <button class="header__btn">Try it free</button>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <h1 class="hero__header">Build The Community Your Fans Will Love</h1>
+        <p class="hero__body">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="hero__btn">Get Started For Free</button>
+        <img src="./src/images/screen-mockups.svg" alt="" class="hero__img" />
+      </section>
+
+      <section class="info">
+        <div class="info__communities">
+          <p class="info__number">1.4k+</p>
+          <p class="info__text">Communities Formed</p>
+        </div>
+        <div class="info__messages">
+          <p class="info__number">2.7m+</p>
+          <p class="info__text">Messages Sent</p>
+        </div>
+      </section>
+
+      <section class="details">
+        <div class="details__row">
+          <div class="details__body">
+            <h2 class="details__header">Grow Together</h2>
+            <p class="details__text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <img
+            src="./src/images/illustration-grow-together.svg"
+            alt=""
+            class="details__img"
+          />
+        </div>
+
+        <div class="details__row">
+          <img
+            src="./src/images/illustration-flowing-conversation.svg"
+            alt=""
+            class="details__img"
+          />
+          <div class="details__body">
+            <h2 class="details__header">Flowing Conversations</h2>
+            <p class="details__text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+
+        <div class="details__row">
+          <div class="details__body">
+            <h2 class="details__header">Your Users</h2>
+            <p class="details__text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <img
+            src="./src/images/illustration-your-users.svg"
+            alt=""
+            class="details__img"
+          />
+        </div>
+      </section>
+
+      <section class="outro">
+        <h2 class="outro__header">Ready To Build Your Community?</h2>
+        <button class="outro__btn">Get Started For Free</button>
+      </section>
     </main>
 
-    <footer class="attribution">
+    <footer class="footer">
+      <div class="footer__info">
+        <img
+          src="./src/images/logo.svg"
+          alt="Huddle logo"
+          title="Huddle"
+          class="footer__img"
+        />
+        <p class="footer__body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <div class="footer__icon"><p class="footer__contact">Phone: +1-543-123-4567</p></div>
+        <div class="footer__icon"><p class="footer__contact">example@huddle.com</p></div>
+      </div>
+      <div class="footer__newsletter">
+        <h3 class="footer__header">Newsletter</h3>
+        <p class="footer__body">
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address.
+        </p>
+        <form class="footer__subscribe">
+          <input type="email" id="email" pattern=".+@.+\.com" size="30" required class="footer__email" />
+          <div class="footer__error-message">Check your email please</div>
+          <input type="submit" value="Subscribe" class="footer__btn" />
+        </form>
+      </div>
+      <div class="footer__social">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      </div>
+    </footer>
+
+    <div class="attribution">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
@@ -91,6 +183,13 @@
         class="attribution__link"
         >João Víctor de Araujo Lima</a
       >.
-    </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

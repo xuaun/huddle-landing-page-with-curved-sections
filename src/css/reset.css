@@ -77,13 +77,22 @@ a {
 
 button {
   background: none;
-  padding: 0;
   border: none;
   cursor: pointer;
 }
 
-/* 11. Reset ul/li */
-ul {
-    list-style: none;
-    padding: 0;
+/* 11. Reset input */
+input {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+input[type="text"] {
+  cursor: text;
+}
+
+input[type="submit"] {
+  cursor: pointer;
 }
