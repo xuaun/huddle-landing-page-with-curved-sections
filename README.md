@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/xuaun/huddle-landing-page-with-curved-sections) and [my Frontend Mentor solution page](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/xuaun/huddle-landing-page-with-curved-sections) and [my Frontend Mentor solution page](https://www.frontendmentor.io/solutions/responsive-huddle-curved-sections-page-6oJppi5TqD)
 - Live Site URL: [Live Page](https://xuaun.github.io/huddle-landing-page-with-curved-sections/)
 
 ## My process
@@ -134,7 +134,7 @@ Os usuários devem ser capazes de:
 
 ### <p id="links-pt">Links</p>
 
-- Link da solução: [Repositório no GitHub](https://github.com/xuaun/huddle-landing-page-with-curved-sections) e a [página da minha solução no Frontend Mentor](https://your-live-site-url.com)
+- Link da solução: [Repositório no GitHub](https://github.com/xuaun/huddle-landing-page-with-curved-sections) e a [página da minha solução no Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-curved-sections-page-6oJppi5TqD)
 - Site com a solução: [Página do projeto no ar](https://xuaun.github.io/huddle-landing-page-with-curved-sections/)
 
 ## Meu processo
